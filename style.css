@@ -561,6 +561,13 @@ body{
     }
 }
 
+@media only screen and (max-width: 1024px){
+    body {
+        width: 862px;
+        margin: auto;
+    }
+}
+
 
 @media only screen and (max-width: 767px){
     .service-section .container-inner-column {
@@ -613,6 +620,7 @@ body{
     .Gallery-section {
         margin-top: 15px;
     }
+   
 }
 @media only screen and (max-width: 640px){
     .Gallery-section .container h2::after {
