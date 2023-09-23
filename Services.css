@@ -325,3 +325,211 @@ body{
 }
 
 /* footer-bottom-css-end */
+
+@media only screen and (max-width: 989px){
+    .container {
+       
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .gallery-section .flex-column {
+        max-width: 32%;
+    }
+    .gallery-section .flex-column h3 {
+        font-size: 19px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .service-section .container-inner-column {
+            justify-content: space-between;
+            
+    }
+    .service-section .flex-column:first-child {
+        width: 23%;
+        margin: auto;
+    }
+    .service-section .flex-column {
+        width: 25%;
+
+    }
+    .service-section .flex-column {
+        width: 25%;
+        
+    }
+    .gallery-section .container-inner-column {
+        display: block;
+    }
+    .gallery-section {
+        padding: 36px;
+    }
+    .gallery-section .flex-column {
+        max-width: 100%;
+        margin: auto;
+    }
+    .gallery-section .flex-column h3 {
+        padding-bottom: 10px;
+        padding-top: 11px;
+    }
+    .gallery-section .flex-column img {
+        width: 100%;
+    }
+    .gallery-section .flex-column h3 {
+        font-size: 24px;
+    }
+    .gallery-section .flex-column img {
+        padding-top: 14px;
+    }
+    .gallery-section .flex-column {
+        text-align: center;
+    }
+    .footer-top {
+        padding: 46px;
+    }
+    .footer-top .footer-top-content p {
+        font-size: 15px;
+    }
+    .footer-top .footer-top-content h4 {
+        font-size: 24px;
+    }
+    .footer-meddile {
+        margin-top: 25px;
+    }
+    .footer-meddile .img-section2 {
+        margin-top: 7px;
+    }
+    .footer-bottom {
+        background: #000000;
+        padding: 40px;
+        margin-top: 27px;
+        margin-bottom: 15px;
+    }
+    .footer-bottom {
+        padding: 29px;
+        margin-top: 27px;
+    }
+    .footer-bottom p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .footer-top {
+        padding: 26px;
+    }
+}
+@media only screen and (max-width: 520px){
+    .service-section .container-inner-column {
+        display: block;
+    }
+    .service-section .flex-column {
+        margin: auto;
+    }
+    .service-section .flex-column:first-child {
+        width: 90%;
+       
+    }
+    .service-section .flex-column {
+        width: 90%;
+    }
+    .service-section h2 {
+        font-size: 22px;
+        margin-top: -66px;
+        margin-bottom: 57px;
+    }
+    .service-section h2::after {
+        width: 219px;
+        bottom: -41px;
+        left: 51%;
+        background-repeat: no-repeat;
+    }
+    .gallery-section {
+        margin-top: 22px;
+    }
+    .gallery-section .flex-column img {
+        width: 100%;
+    }
+    .gallery-section .flex-column h3 {
+        font-size: 22px;
+    }
+    .gallery-section {
+        margin-top: 22px;
+    }
+    .footer-top .footer-top-content p {
+        font-size: 13px;
+    }
+    .footer-top .footer-top-content h4 {
+        font-size: 21px;
+    }
+    .footer-bottom p {
+        font-size: 10px;
+    }
+    img {
+        width: 123px;
+    }
+    .footer-bottom {
+    padding: 26px;
+    margin-top: 14px;
+}
+    .footer-meddile .img-section2 img {
+        padding-right: 7px;
+        width: 39px;
+    }
+    .footer-meddile {
+        margin-top: 18px;
+    }
+    .footer-bottom {
+        padding: 26px;
+        margin-top: 14px;
+    }
+    .footer-meddile .img-section img {
+        width: 178px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .footer-top .footer-top-content p {
+        font-size: 11px;
+    }
+    .footer-top .footer-top-content h4 {
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .gallery-section .flex-column h3 {
+        font-size: 18px;
+    }
+    .footer-top .footer-top-content p {
+        font-size: 8px;
+    }
+    .footer-top .footer-top-content h4 {
+        font-size: 16px;
+    }
+    .footer-top {
+        padding: 19px;
+    }
+    .footer-bottom p {
+        font-size: 8px;
+    }
+    .footer-meddile .img-section2 img {
+        width: 32px;
+    }
+    .footer-meddile .img-section img {
+        width: 161px;
+    }
+}
+@media only screen and (max-width: 380px){
+    .gallery-section .flex-column h3 {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .gallery-section .flex-column h3 {
+        font-size: 11px;
+    }
+    .gallery-section {
+        padding: 33px;
+    }
+}
+
+
+
