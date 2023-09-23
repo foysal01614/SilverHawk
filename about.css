@@ -500,6 +500,13 @@ body{
     .footer-top {
         padding: 41px;
     }
+    .about-section .container-inner {
+        flex-wrap: nowrap;
+        gap: 40px;
+    }
+    .about-section .container-inner .right-content {
+        width: 60%;
+    }
 }
 @media only screen and (max-width: 800px) {
     .about-section .container-inner {
