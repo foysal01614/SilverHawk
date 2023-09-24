@@ -6,6 +6,8 @@
     <title>SilverHawk</title>
     <!-------------Link-section- Start-->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.0/slicknav.min.css" integrity="sha512-MVXhwgzug/vd2/6CjhEI2KY7Hl60+LM3alGwzQAnlOifbQqEbiUb8nfQHonBMDJUT8J/AT6xoWv07G96TL7fFQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="contract.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,7 +51,7 @@
                        <img src="./images/logo.jpg" alt="Logo">
                 </div>
                 <div class="right-nav">
-                        <ul>
+                        <ul id="menu">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="Services.html"> Services </a></li>
                             <li><a href="about.html"> About Us  </a></li>
@@ -148,3 +150,15 @@
   </section>
 
   <!-----------------footer-bottom-section-end-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.0/jquery.slicknav.min.js" integrity="sha512-9I/r/FKSSM9BN2CSYwWY1psDPVBLN+ygCmtUjzNdyVpD96xVDTuRv1wyMkTGMWGBAAlgSAYZygVBz0Wsp6B1nQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <script>
+    $(function(){
+        $('#menu').slicknav();
+    });
+</script>
+
+</body>
+</html>

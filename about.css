@@ -26,17 +26,14 @@ body{
    font-size: 13px;
 }
 .top-header-section .main-column {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
 }
 .top-header-section .column-left{
-    width: 46%;
-    margin-right: 4%;
+    
 }
 .top-header-section .column-right{
-    width: 50%;
-    text-align: right;
+   text-align: right;
 }
 .top-header-section .fa-twitter{
     padding-left: 35px;
@@ -91,6 +88,9 @@ body{
 }
 .main-manu-section .right-nav ul{
     list-style: none;
+}
+.slicknav_menu{
+    display: none;
 }
 .main-manu-section .right-nav ul li {
     display: inline-block;
@@ -507,6 +507,74 @@ body{
     .about-section .container-inner .right-content {
         width: 60%;
     }
+
+    .slicknav_menu {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 76px;
+        z-index: 999;
+        background: transparent;
+    }
+    .slicknav_menu ul{
+        background: #0c1f38;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    #menu{
+        display: none;
+        
+    }
+    .main-manu-section .left-logo {
+        margin-bottom: 0px;
+    }
+    .slicknav_menu .slicknav_icon {
+ 
+        opacity: 0;
+    }
+    .slicknav_collapsed{
+        position: relative;
+        background: transparent;
+    }
+    .slicknav_collapsed:focus, .slicknav_open:focus{
+        color: #0c1f38;
+    }
+    .slicknav_collapsed::after {
+        content: '\f0c9';
+        position: absolute;
+        font-family: fontawesome;
+        left: 0;
+        font-size: 28px;
+    }
+    .slicknav_open{
+        background: transparent;
+        position: relative;
+    }
+    .slicknav_open::after{
+        content: '\f00d';
+        position: absolute;
+        font-family: fontawesome;
+        left: 0;
+        font-size: 28px;
+    }
+    .slicknav_menu ul {
+        background: #0c1f38;
+        width: 215px;
+        position: relative;
+        top: 39px;
+        height: 100vh;
+    }
+    .slicknav_nav a {
+        padding: 16px 10px;
+    }
+    .main-manu-section .left-logo {
+        margin-bottom: -1px;
+    }
+    .slicknav_menu ul {
+        top: 20px;
+    }
+   
 }
 @media only screen and (max-width: 800px) {
     .about-section .container-inner {
@@ -662,6 +730,25 @@ body{
     }
     .footer-meddile .img-section2 img {
         width: 44px;
+    }
+    .top-header-section .main-column {
+        grid-template-columns: 1fr;
+    }
+    .top-header-section .column-left {
+        text-align: center;
+    }
+    .top-header-section .phone {
+        margin-right: 6px;
+    }
+    .top-header-section .column-right {
+        text-align: center;
+    }
+    .top-header-section .fa-twitter {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .slicknav_menu ul {
+        top: 38px;
     }
 }
 @media only screen and (max-width: 520px) {
