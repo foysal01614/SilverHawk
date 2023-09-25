@@ -685,12 +685,11 @@ body{
         .about-section .container-inner {
     display: block;
 }
-.about-section .container-inner .left-img {
-    width: 95%;
-}
 .about-section .container-inner .right-content {
-    width: 85%;
-    padding-left: 19px;
+        width: 82%;
+}
+.about-section .container-inner .left-img {
+    width: 92%;
 }
 .about-section {
     margin-top: 21px;
@@ -702,11 +701,11 @@ body{
     padding: 47px;
 }
 .about-section .container-inner .left-img {
-    width: 69%;
+    width: 98%;
     margin: auto;
 }
 .about-section .container-inner .right-content {
-    width: 66%;
+    width: 90%;
     margin: auto;
 }
 .Gallery-section .container h2::after {
@@ -729,7 +728,6 @@ body{
 }
 @media only screen and (max-width: 800px) {
 
-
 }
 @media only screen and (max-width:768px){
 .Gallery-section .main-gallery {
@@ -745,6 +743,7 @@ body{
     padding-right: 20px;
     padding-left: 20px;
 }
+
 }
 @media only screen and (max-width:767px){
     .banner-section img {
@@ -859,6 +858,7 @@ body{
     padding-right: 20px;
     padding-left: 20px;
 }
+
 }
 
 @media only screen and (max-width:580px){
