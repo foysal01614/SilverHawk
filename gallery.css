@@ -278,10 +278,9 @@ body{
 /* footer-top-section-css-start */
 
 .footer-top {
-    background: #173a69;
-    padding: 53px;
-    margin-top: 109px;
-   
+	background: #173a69;
+	padding: 53px;
+	margin-top: 74px;
 }
 .footer-top .footer-top-content {
     display: flex;
@@ -307,7 +306,7 @@ body{
 /* footer-meddile-section-css-start */
 
 .footer-meddile {
-    margin-top: 75px;
+	margin-top: 42px;
 }
 .footer-meddile .img-section {
     text-align: center;
@@ -317,8 +316,8 @@ body{
 }
 
 .footer-meddile .img-section2 {
-    margin-top: 50px;
-    text-align: center;
+	margin-top: 18px;
+	text-align: center;
 }
 .footer-meddile .img-section2 img {
     padding-right: 31px;
@@ -332,10 +331,10 @@ body{
 /* footer-bottom-css-start */
 
 .footer-bottom {
-    background: #000000;
-    padding: 40px;
-    margin-top: 72px;
-    margin-bottom: 15px;
+	background: #000000;
+	padding: 40px;
+	margin-top: 40px;
+	margin-bottom: 15px;
 }
 .footer-bottom p {
     color: #dee1e6;
@@ -422,6 +421,22 @@ body{
     .slicknav_menu ul {
         top: 20px;
     }
+    .footer-top {
+        margin-top: 59px;
+    }
+    .footer-meddile {
+        margin-top: 40px;
+    }
+    .footer-meddile .img-section2 {
+        margin-top: 15px;
+    }
+    .footer-bottom {
+        margin-top: 27px;
+
+    }
+    .footer-meddile .img-section2 img {
+        padding-right: 19px;
+    }
 }
 @media only screen and (max-width: 900px) {
     .Gallery-section .main-gallery {
@@ -452,12 +467,7 @@ body{
     }
 }
 @media only screen and (max-width: 767px){
-    .footer-top .footer-top-content p {
-        font-size: 17px;
-    }
-    .footer-top .footer-top-content h4 {
-        font-size: 22px;
-    }
+   
     .footer-top {
         background: #173a69;
         padding: 34px;
@@ -469,9 +479,10 @@ body{
         padding-right: 12px;
         width: 41px;
     }
-    .footer-bottom p {
-        font-size: 13px;
+    .footer-top .footer-top-content {
+        text-align: center;
     }
+   
 
    
        
@@ -479,12 +490,7 @@ body{
     
 }
 @media only screen and (max-width: 580px){
-    .footer-top .footer-top-content h4 {
-        font-size: 21px;
-    }
-    .footer-top .footer-top-content p {
-        font-size: 14px;
-    }
+  
 
     .top-header-section .main-column {
         display: grid;
@@ -509,14 +515,7 @@ body{
    
 }
 @media only screen and (max-width: 520px){
-    .footer-top .footer-top-content p {
-        font-size: 12px;
-    }
-    .footer-top .footer-top-content h4 {
-        font-size: 18px;
-    }
-    .footer-bottom p {
-        font-size: 12px;
-    }
+ 
+    
 }
 

@@ -311,9 +311,9 @@ body{
 /* footer-top-section-css-start */
 
 .footer-top {
-    background: #173a69;
-    padding: 53px;
-    margin-top: 76px;
+	background: #173a69;
+	padding: 53px;
+	margin-top: 48px;
 }
 .footer-top .footer-top-content {
     display: flex;
@@ -339,15 +339,15 @@ body{
 /* footer-meddile-section-css-start */
 
 .footer-meddile {
-    margin-top: 75px;
+	margin-top: 47px;
 }
 .footer-meddile .img-section {
     text-align: center;
 }
 
 .footer-meddile .img-section2 {
-    margin-top: 50px;
-    text-align: center;
+	margin-top: 20px;
+	text-align: center;
 }
 .footer-meddile .img-section2 img {
     padding-right: 31px;
@@ -361,10 +361,10 @@ body{
 /* footer-bottom-css-start */
 
 .footer-bottom {
-    background: #000000;
-    padding: 40px;
-    margin-top: 72px;
-    margin-bottom: 15px;
+	background: #000000;
+	padding: 40px;
+	margin-top: 33px;
+	margin-bottom: 15px;
 }
 .footer-bottom p {
     color: #dee1e6;
@@ -486,7 +486,7 @@ body{
     .form-section .right-container ul li {
         list-style: none;
         line-height: 35px;
-        font-size: 16px;
+        
     }
     .footer-meddile .img-section img {
         width: 210px;
@@ -509,18 +509,12 @@ body{
         padding: 35px;
         margin-top: 24px;
     }
-    .footer-top .footer-top-content p {
-        font-size: 9px;
-    }
-    .footer-top .footer-top-content h4 {
-        font-size: 22px;
-    }
+  
+   
     .footer-bottom {
         padding: 25px;
     }
-    .footer-bottom p {
-        font-size: 13px;
-    }
+   
     .top-header-section .main-column {
         grid-template-columns: 3fr 2fr;
     }
@@ -545,6 +539,13 @@ body{
     }
     .slicknav_menu ul {
         top: 38px;
+    }
+    .footer-top .footer-top-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 

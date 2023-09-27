@@ -389,15 +389,15 @@ body{
 /* footer-meddile-section-css-start */
 
 .footer-meddile {
-    margin-top: 75px;
+	margin-top: 49px;
 }
 .footer-meddile .img-section {
     text-align: center;
 }
 
 .footer-meddile .img-section2 {
-    margin-top: 50px;
-    text-align: center;
+	margin-top: 19px;
+	text-align: center;
 }
 .footer-meddile .img-section2 img {
     padding-right: 31px;
@@ -411,10 +411,10 @@ body{
 /* footer-bottom-css-start */
 
 .footer-bottom {
-    background: #000000;
-    padding: 40px;
-    margin-top: 72px;
-    margin-bottom: 15px;
+	background: #000000;
+	padding: 40px;
+	margin-top: 43px;
+	margin-bottom: 15px;
 }
 .footer-bottom p {
     color: #dee1e6;
@@ -483,14 +483,14 @@ body{
         padding-top: 50px;
     }
     .support-section .support-caption h2 {
-        font-size: 19px;
+       
         padding-bottom: 44px;
     }
     .support-section .support-item img {
         padding-bottom: 13px;
     }
     .bottom-support-section .flex-content h2 {
-        font-size: 19px;
+       
         padding-bottom: 14px;
     }
     .bottom-support-section .flex-item img {
@@ -656,12 +656,7 @@ body{
     .support-section .support-caption p {
         width: 96%;
     }
-    .footer-top .footer-top-content p {
-        font-size: 14px;
-    }
-    .footer-top .footer-top-content h4 {
-        font-size: 26px;
-    }
+  
     .footer-top {
         padding: 35px;
     }
@@ -681,9 +676,7 @@ body{
     .footer-bottom {
         margin-top: 29px;
     }
-    .footer-bottom p {
-        font-size: 12px;
-    }
+    
 }
 @media only screen and(max-width: 640px) {
     .footer-meddile img {
@@ -713,15 +706,7 @@ body{
     .bottom-support-section {
         height: 784px;
     }
-    .footer-top .footer-top-content p {
-        font-size: 11px;
-    }
-    .footer-top .footer-top-content h4 {
-        font-size: 21px;
-    }
-    .footer-bottom p {
-        font-size: 9px;
-    }
+  
     .footer-bottom {
         padding: 31px;
     }
@@ -758,14 +743,12 @@ body{
     .about-section .container-inner .right-content h2::after {
         width: 128px;
     }
-    .footer-top .footer-top-content h4 {
-        font-size: 15px;
-    }
-    .footer-top .footer-top-content p {
-        font-size: 11px;
-    }
+   
     .footer-top .footer-top-content h4 {
         margin-left: 3px;
+    }
+    .footer-top .footer-top-content {
+        text-align: center;
     }
 }
 @media only screen and (max-width: 480px) {
